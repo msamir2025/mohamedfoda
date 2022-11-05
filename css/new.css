@@ -1,0 +1,410 @@
+#preloader 
+{
+ background-color: ;
+}
+#status
+{
+  
+}
+/*start navbar*/
+.nav
+{
+    direction: rtl;
+}
+.nav .submenu a
+{
+    font-family: 'Cairo', 'sans-serif' ;
+}
+/*end navbar*/
+
+/*start carousel*/
+.carousel .carousel-inner .item .fw_al_003_slide h4,
+.carousel .carousel-inner .item .fw_al_003_slide h1,
+.carousel .carousel-inner .item .fw_al_003_slide span
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+/*end carousel*/
+/*start about us*/
+.about-us
+{
+    direction: rtl;
+}
+.about-us .about-desc
+{
+    position: relative;
+    right: 83px;
+}
+.about-us .about-icon
+{
+    right: 0;
+}
+.about-us  .section-title h3,
+.about-us  .section-title p,
+.about-us .about-content .content-box .about-item .about-desc h3, 
+.about-us .about-content .content-box .about-item .about-desc p 
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.about-us .section-title h3
+{
+    font-size:50px;
+}
+.about-us .section-title p
+{
+    font-size:27px;
+}
+.about-us .about-content .content-box .about-item .about-icon
+{
+   /* background-color: #00a3c8 !important;*/
+}
+.about-us-image .about-txt 
+{
+    background-color: #00a3c8 !important;
+}
+/*end about us*/
+
+/*start our services*/
+.services  .section-title
+{
+    direction: rtl;
+}
+.services  .section-title h3,
+.services  .section-title p,
+.services .service-item .service-content h3,
+.services .service-item .service-content p
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.services  .section-title h3
+{
+    font-size:50px;
+}
+.services  .section-title p
+{
+    font-size:27px;
+}
+/*end our services*/
+/*start call-to-action */
+.call-to-action .action-content h2,
+.call-to-action .action-content p
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.call-to-action .action-content h2 span
+{
+    color: #00a3c8 !important;
+}
+.video-overlay .play-btn  i
+{
+    background-color: #00a3c8;
+}
+/*end call-to-action */
+/*start gallery*/
+.gallery .section-title h2
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.gallery .gallery-inner h3 a
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.gallery .gallery-content
+{
+    background: linear-gradient(to right, rgba(0, 184, 212,0.7) 0%, rgba(0, 188, 212,0.7) 100%) !important;
+
+}
+/*end gallery*/
+/*start specialist*/
+
+.specialist
+{
+    direction: rtl;
+}
+.specialist .specialist-main
+{
+    direction: ltr;
+}
+section.specialist:before {
+    content: '';
+    background: #00B8D4;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 31%;
+    top: 0;
+    transform: skew(
+-20deg
+);
+}
+.specialist .section-title
+{
+    float: right;
+    text-align: end;
+}
+.specialist .section-title h3
+{
+    text-align: right;
+    font-family: 'Cairo', 'sans-serif' !important;
+    font-size: 40px;
+}
+.specialist .specialist-content h3,
+.specialist .specialist-content h2,
+.specialist .specialist-content p
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+
+
+/*end specialist*/
+ /*start customer*/
+ .counter
+ {
+    background: #00B8D4 !important;
+ }
+ .counter .dental-testi .section-title h3,
+ .counter .dental-testi .section-title p
+ {
+    font-family: 'Cairo', 'sans-serif' !important;
+ }
+ .counter .dental-testi .section-title h3
+ {
+    text-align: center !important;
+    font-size: 47px;
+}
+.counter .dental-testi .section-title p
+{
+    text-align: right;
+}
+ /*end customer*/
+/*
+    Latest blog Area style*/
+
+.latest-blog-area {
+    background: #ffffff;
+    position: relative;
+    display: block;
+    padding-bottom: 25px;
+}
+.latest-blog-area.pd-btm60{
+    padding-bottom: 60px;    
+}
+.single-blog-post {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.single-blog-post .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-blog-post .img-holder:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(7, 33, 29, 0.85);
+    transform: scaleX(0);
+    transition: .5s ease;
+}
+.single-blog-post:hover .img-holder:after {
+    transform: scaleY(1);
+    transition: .5s ease;
+}
+.single-blog-post .img-holder img {
+    transition: all 0.5s ease-in-out 0.6s;    
+    width: 100%;
+}
+.single-blog-post:hover .img-holder img {
+    transform: scale(1.2, 1.2);
+}
+.single-blog-post .img-holder .categorie-button {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 3;
+}
+.single-blog-post .img-holder .categorie-button a {
+    padding: 12px 20px 12px;
+}
+.single-blog-post:hover .img-holder .categorie-button a{
+    background: #8bc43f;
+}
+
+.single-blog-post .text-holder {
+    position: relative;
+    display: block;
+    border: 1px solid #eeeeee;
+    padding: 28px 30px 22px;
+}
+.single-blog-post .text-holder .meta-box {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+.single-blog-post .text-holder .meta-box .author-thumb{
+    width: 25px;
+}
+.single-blog-post .text-holder .meta-box .author-thumb img{
+    border-radius: 50%;
+    transform: none;
+}
+.single-blog-post .text-holder .meta-box .author-thumb,
+.single-blog-post .text-holder .meta-box .meta-info{
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-blog-post .text-holder .meta-box .meta-info{
+    position: relative;
+    padding-left: 10px;
+}
+.single-blog-post .text-holder .meta-box .meta-info li {
+    display: inline-block;
+    float: left;
+    line-height: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #eeeeee;
+}
+.single-blog-post .text-holder .meta-box .meta-info li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+}
+.single-blog-post .text-holder .meta-box .meta-info li a{
+    color: #848484;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    transition: all 500ms ease;
+}
+.single-blog-post .text-holder .meta-box .meta-info li a:hover{
+    color: #00a3c8;
+}
+
+.single-blog-post .text-holder .blog-title {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.single-blog-post .text-holder .blog-title a{
+    color: #303030;
+    transition: all 500ms ease;
+}
+.single-blog-post .text-holder .blog-title a:hover{
+    color: #00a3c8;
+}
+.single-blog-post .text-holder .text-box {
+    display: block;
+    margin-top: 12px;
+}
+.single-blog-post .text-holder .text-box p{
+    margin: 0;    
+}
+.single-blog-post .text-holder .readmore-button{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+.single-blog-post .text-holder .readmore-button a{}
+.single-blog-post:hover .text-holder .readmore-button a{
+    color: #00a3c8;
+}
+/*** 
+
+/*start our blogs*/
+.latest-blog-area .sec-title h3,
+.latest-blog-area .sec-title h1,
+.latest-blog-area .sec-title p,
+.latest-blog-area .single-blog-post a,
+.latest-blog-area .text-holder ul li a,
+.latest-blog-area .text-holder h3,
+.latest-blog-area .text-holder h3 a,
+.latest-blog-area .text-holder p,
+.latest-blog-area .text-holder a
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.latest-blog-area .sec-title h3
+{
+    font-size: 15px;
+}
+.latest-blog-area .sec-title p
+{
+    margin-bottom: 29px;
+    font-size: 17px;
+}
+.single-blog-post:hover .img-holder .categorie-button a 
+{
+    background-color: #00a3c8 !important;
+}
+.single-blog-post:hover .img-holder .categorie-button a:hover,
+.single-blog-post .text-holder .readmore-button a:hover
+{
+    color: #000 !important;
+}
+
+.single-blog-post .text-holder .text-box p 
+{
+    text-align: end;
+}
+/*end our blogs*/
+
+/*start contact*/
+.f-contact  .contact-title span
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+/*end contact*/
+
+/*start footer*/
+.footer-content .footer-contact p
+{
+    text-align: end;
+    font-weight: bold;
+}
+.footer-content .footer-contact p,
+.footer-content .departments h3,
+.footer-content .departments ul li a,
+.footer-content .work-time h3,
+.footer-content .work-time ul li a
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+}
+.copyright p
+{
+    font-family: 'Cairo', 'sans-serif' !important;
+    font-size: 18px;
+}
+/*end footer*/
+
+/*start small screen*/
+@media screen and (max-width: 590px) {
+    .about-us .about-desc {
+        position: relative;
+        right: 19px !important;
+    }
+    .about-item .about-desc h3,
+    .about-desc p
+    {
+        text-align: right !important;
+    }
+    .about-us-image
+    {
+        margin-bottom: 100px;
+    }
+    .about-us .section-title p,
+    .services .section-title p,
+    .section-title p
+    {
+        line-height: 1.2;
+    }
+  }
